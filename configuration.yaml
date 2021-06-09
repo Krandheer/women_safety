@@ -1,0 +1,12 @@
+
+mail:
+    host: smtp.gmail.com
+    port: 587
+    username: 'your@gmail.com' #sender email
+    password: 'yourgmailpassword' #sender email password
+    message: "In trouble, need help."
+    protocol: smtp
+    tls: true
+
+
+# https://stackoverflow.com/questions/41351540/configure-smtp-host-using-yaml-file-in-spring-boot
